@@ -102,6 +102,10 @@ export class Color {
     get rgba255Sum() { return this.rgb255Sum + this.rgba255.a }
     get rgb255Avg() { return this.rgb255Sum / 3 }
     get rgba255Avg() { return this.rgba255Sum / 4 }
+    get rgbSum() { return this.rgb255Sum }
+    get rgbaSum() { return this.rgba255Sum }
+    get rgbAvg() { return this.rgb255Avg }
+    get rgbaAvg() { return this.rgba255Avg }
 
     get rgb1Sum() { return this.rgba1.r + this.rgba1.g + this.rgba1.b }
     get rgba1Sum() { return this.rgb1Sum + this.rgba1.a }
