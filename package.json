@@ -1,0 +1,25 @@
+{
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepare": "tsc",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kkristof200/ts-colors"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.11.2",
+        "typescript": "^4.0.3"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Kristóf-Attila Kovács",
+    "description": "Create color from, and convert color to any of the following: [RGB, RGBA, HSL, HSLA, HSV, HSVA, CMYK, CMYKA, HEX]",
+    "name": "kcolor",
+    "version": "0.0.2"
+}
