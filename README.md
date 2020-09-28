@@ -22,7 +22,7 @@ console.log(color.rgba1)    // { r: 0.33, g: 0.3, b: 0.26, a: 1 }
 console.log(color.rgb1)     // { r: 0.33, g: 0.3, b: 0.26 }
 console.log(color.rgba)     // { r: 85, g: 77, b: 68, a: 255 }
 console.log(color.rgba255)  // { r: 85, g: 77, b: 68, a: 255 }
-console.log(color.rgb255)   // { r: 85, g: 77, b: 68 }
+console.log(color.rgb)      // { r: 85, g: 77, b: 68 }
 console.log(color.rgb255)   // { r: 85, g: 77, b: 68 }
 console.log(color.hsva)     // { h: 32, s: 20, v: 33, a: 1 }
 console.log(color.hsv)      // { h: 32, s: 20, v: 33 }
